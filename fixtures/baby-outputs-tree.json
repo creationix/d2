@@ -1,0 +1,17 @@
+{ "version": 1,
+  "children": [
+    { "type": "directory",
+      "name": "add-ons",
+      "children": [
+        { "type": "file",
+          "name": "index.html",
+          "contentType": "text/html; charset=utf-8" }
+      ] },
+    { "type": "directory",
+      "name": "bugs-and-requests",
+      "children": [
+        { "type": "file",
+          "name": "index.html",
+          "contentType": "text/html; charset=utf-8" }
+      ] }
+  ] }
