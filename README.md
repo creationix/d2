@@ -30,7 +30,7 @@ The format is a variant of JSON Lines (JSONL) with specific rules for data repre
 
 #### Encoded Format
 
-```json
+```jsonc
 "directory"           // 1: an example of a string that can be referenced
 [ "type", "name" ]    // 2: the schema used on line 3
 [ -2, 1, "add-ons" ]  // 3: an object with an external schema on line 2
@@ -79,7 +79,7 @@ A slightly larger example of encoding can be done with this manifest for two sta
 
 This is one possible encoding using the D2 format:
 
-```json
+```jsonc
 1                                                   // 1 - number
 "directory"                                         // 2 - string
 ["type","name","contentType"]                       // 3 - schema
